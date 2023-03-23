@@ -1,0 +1,37 @@
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mainBody {
+    width: 100vw;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 65%;
+    margin-bottom: 5%;
+    margin-left: 10px;
+}
+
+nav {
+    min-height: 10vh;
+    background: rgb(214,49,113);
+    background: linear-gradient(270deg, rgba(214,49,113,1) 0%, rgb(188, 29, 87) 100%);
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menutext{
+    font-size: 16px;
+    font-weight: 600;
+}
