@@ -12,6 +12,7 @@ $smarty->setCompileDir('./web/templates_c');
 $smarty->setCacheDir('./web/cache');
 $smarty->setConfigDir('./web/configs');
 $content = "home.tpl";
+$smarty->assign("name", "Title");
 //Assign content and template to samrty
 $smarty->assign("content", $content);
 $smarty->display($template);
